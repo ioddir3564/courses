@@ -8,11 +8,7 @@ function Main() {
     const [course, setCourse] = useState('regents')
 
     const courseHandler = (courseType) => {
-        setCourse(prev => {
-            if (prev !== courseType){
-                return courseType
-            }
-        })
+        setCourse(courseType)
     }
 
     let displayedContent = <RContent />

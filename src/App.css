@@ -102,6 +102,12 @@ nav li {
   letter-spacing: 2px;
 }
 
+.selected{
+  color: white;
+  background-color: tomato;
+  transition: 0.5s;
+}
+
 .section:hover {
   color: white;
     background-color: tomato;
@@ -119,9 +125,9 @@ nav li {
 
 .chapter-div{
   position: relative;
-  width: 60%;
+  width: 70%;
   top: -400px;
-  left: 30%;
+  left: 25%;
   height: 700px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
